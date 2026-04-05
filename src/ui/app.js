@@ -77,38 +77,31 @@ export function initApp(root) {
   let acController = null;
 
   // ── build DOM ──────────────────────────────────────────────────────────────
-  root.innerHTML = `
-    <main class="app">
-      <h1>Flag Guesser</h1>
-
-      <div class="session-header">
-        <span id="round-label" class="round-label">Round 1 / ${SESSION_SIZE}</span>
-        <div id="round-dots" class="round-dots">
-          ${Array.from({ length: SESSION_SIZE }, () => `<span class="dot"></span>`).join('')}
-        </div>
-      </div>
-
-      <div id="game-area">
-        <div id="flag-wrap" class="flag-wrap"></div>
-        <p id="status" class="status"></p>
-        <div id="hints" class="hints"></div>
-
-        <div id="guess-row" class="guess-row">
-          <div class="input-wrap">
-            <input type="text" id="guess-input" autocomplete="off" placeholder="Guess a country" />
-          </div>
-          <button type="button" id="guess-btn">Guess</button>
-        </div>
-
-        <button type="button" id="next-btn" class="next-btn" hidden></button>
-      </div>
-
-      <div id="final-score" class="final-score" hidden></div>
-
-      <p class="countdown" id="countdown" hidden></p>
-      <p class="streak" id="streak-info"></p>
-    </main>
-  `;
+  // Static markup only — no interpolation so innerHTML is safe from XSS.
+  // Dynamic values (round label text, dot spans) are set via DOM APIs below.
+  root.innerHTML =
+    '<main class="app">' +
+    '<h1>Flag Guesser</h1>' +
+    '<div class="session-header">' +
+    '<span id="round-label" class="round-label"></span>' +
+    '<div id="round-dots" class="round-dots"></div>' +
+    '</div>' +
+    '<div id="game-area">' +
+    '<div id="flag-wrap" class="flag-wrap"></div>' +
+    '<p id="status" class="status"></p>' +
+    '<div id="hints" class="hints"></div>' +
+    '<div id="guess-row" class="guess-row">' +
+    '<div class="input-wrap">' +
+    '<input type="text" id="guess-input" autocomplete="off" placeholder="Guess a country" />' +
+    '</div>' +
+    '<button type="button" id="guess-btn">Guess</button>' +
+    '</div>' +
+    '<button type="button" id="next-btn" class="next-btn" hidden></button>' +
+    '</div>' +
+    '<div id="final-score" class="final-score" hidden></div>' +
+    '<p class="countdown" id="countdown" hidden></p>' +
+    '<p class="streak" id="streak-info"></p>' +
+    '</main>';
 
   // ── element refs ───────────────────────────────────────────────────────────
   const roundLabelEl = root.querySelector('#round-label');
@@ -124,6 +117,13 @@ export function initApp(root) {
   const finalScoreEl = root.querySelector('#final-score');
   const countdownEl = root.querySelector('#countdown');
   const streakEl = root.querySelector('#streak-info');
+
+  // Populate dot indicators (one per session round)
+  for (let i = 0; i < SESSION_SIZE; i++) {
+    const dot = document.createElement('span');
+    dot.className = 'dot';
+    dotsEl.appendChild(dot);
+  }
 
   // ── helpers ────────────────────────────────────────────────────────────────
   function currentAnswer() {
@@ -161,7 +161,7 @@ export function initApp(root) {
           : `It was ${ans.name} — 0 pts`;
 
     // hints
-    hintsEl.innerHTML = '';
+    hintsEl.replaceChildren();
     for (const h of getVisibleHints(ans, state.hintsVisible)) {
       const div = document.createElement('div');
       div.className = 'hint';
@@ -205,7 +205,7 @@ export function initApp(root) {
     gameArea.hidden = true;
 
     finalScoreEl.hidden = false;
-    finalScoreEl.innerHTML = '';
+    finalScoreEl.replaceChildren();
 
     const heading = document.createElement('h2');
     heading.className = 'score-heading';
@@ -219,8 +219,15 @@ export function initApp(root) {
 
     const table = document.createElement('table');
     table.className = 'score-table';
-    table.innerHTML =
-      '<thead><tr><th>#</th><th>Flag</th><th>Country</th><th>Result</th><th>Pts</th></tr></thead>';
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    for (const title of ['#', 'Flag', 'Country', 'Result', 'Pts']) {
+      const th = document.createElement('th');
+      th.textContent = title;
+      headerRow.appendChild(th);
+    }
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
     const tbody = document.createElement('tbody');
 
     roundResults.forEach((r, i) => {

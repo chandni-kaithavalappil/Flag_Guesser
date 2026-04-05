@@ -18,8 +18,7 @@ export function updateFlagBlur(container, flagUrl, blurPx) {
     img.height = 200;
     img.style.maxWidth = '100%';
     img.style.height = 'auto';
-    container.innerHTML = '';
-    container.appendChild(img);
+    container.replaceChildren(img);
   }
   img.src = flagUrl;
   img.style.filter = `blur(${blurPx}px)`;

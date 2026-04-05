@@ -3,6 +3,12 @@
  */
 
 /**
+ * Ordinal day offset that maps Unix epoch days to puzzle-number day 1.
+ * Puzzle #1 corresponds to ordinal day 19 000 (approx. 2022-01-10 UTC).
+ */
+const PUZZLE_DAY_OFFSET = 19_000;
+
+/**
  * Daily puzzle index for share line (1-based).
  *
  * @param {string} isoDate
@@ -11,7 +17,7 @@
 function puzzleNumber(isoDate) {
   const [y, m, d] = isoDate.split('-').map(Number);
   const ord = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
-  return ord - 19_000 + 1;
+  return ord - PUZZLE_DAY_OFFSET + 1;
 }
 
 /**
