@@ -15,6 +15,9 @@
 
 const STORAGE_KEY = 'flagguesser_v1';
 
+/** Milliseconds in one day (60 × 60 × 24 × 1000). */
+const MS_PER_DAY = 86_400_000;
+
 /**
  * @returns {PersistenceRecord}
  */
@@ -38,7 +41,7 @@ function defaultRecord() {
 function daysBetween(isoA, isoB) {
   const ord = (iso) => {
     const [y, m, d] = iso.split('-').map(Number);
-    return Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+    return Math.floor(Date.UTC(y, m - 1, d) / MS_PER_DAY);
   };
   return ord(isoA) - ord(isoB);
 }

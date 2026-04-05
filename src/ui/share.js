@@ -2,11 +2,17 @@
  * @typedef {import('../game/engine.js').GameState} GameState
  */
 
+/** Milliseconds in one day (60 × 60 × 24 × 1000). */
+const MS_PER_DAY = 86_400_000;
+
 /**
  * Ordinal day offset that maps Unix epoch days to puzzle-number day 1.
  * Puzzle #1 corresponds to ordinal day 19 000 (approx. 2022-01-10 UTC).
  */
 const PUZZLE_DAY_OFFSET = 19_000;
+
+/** Maximum number of guesses (and emoji squares) per round. */
+const MAX_SQUARES = 5;
 
 /**
  * Daily puzzle index for share line (1-based).
@@ -16,7 +22,7 @@ const PUZZLE_DAY_OFFSET = 19_000;
  */
 function puzzleNumber(isoDate) {
   const [y, m, d] = isoDate.split('-').map(Number);
-  const ord = Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+  const ord = Math.floor(Date.UTC(y, m - 1, d) / MS_PER_DAY);
   return ord - PUZZLE_DAY_OFFSET + 1;
 }
 
@@ -30,7 +36,7 @@ function puzzleNumber(isoDate) {
 export function buildShareText(dateIso, state) {
   const n = puzzleNumber(dateIso);
   const total = state.guesses.length;
-  const maxSquares = 5;
+  const maxSquares = MAX_SQUARES;
   const squares = [];
 
   for (let i = 0; i < maxSquares; i++) {

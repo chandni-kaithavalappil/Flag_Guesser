@@ -2,6 +2,12 @@
  * @typedef {{ label: string; value: string }} HintLine
  */
 
+const POP_VERY_LARGE = 100_000_000;
+const POP_LARGE = 50_000_000;
+const POP_MEDIUM_LARGE = 10_000_000;
+const POP_MEDIUM = 1_000_000;
+const POP_SMALL = 100_000;
+
 /**
  * Formats population into a human-readable tier string.
  *
@@ -9,19 +15,19 @@
  * @returns {string}
  */
 export function formatPopulationTier(population) {
-  if (population >= 100_000_000) {
+  if (population >= POP_VERY_LARGE) {
     return 'Very large — over 100M';
   }
-  if (population >= 50_000_000) {
+  if (population >= POP_LARGE) {
     return 'Large — over 50M';
   }
-  if (population >= 10_000_000) {
+  if (population >= POP_MEDIUM_LARGE) {
     return 'Medium-large — over 10M';
   }
-  if (population >= 1_000_000) {
+  if (population >= POP_MEDIUM) {
     return 'Medium — over 1M';
   }
-  if (population >= 100_000) {
+  if (population >= POP_SMALL) {
     return 'Small — over 100k';
   }
   return 'Very small — under 100k';

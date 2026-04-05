@@ -15,6 +15,12 @@ import countries from '../data/countries.json';
 /** Fixed seed for deterministic daily permutation (full 195-day cycle). */
 const PERM_SEED = 0x464c4147; // 'FLAG'
 
+/** Milliseconds in one day (60 × 60 × 24 × 1000). */
+const MS_PER_DAY = 86_400_000;
+
+/** Divisor to normalise a uint32 to [0, 1) — equals 2^32. */
+const UINT32 = 4_294_967_296;
+
 /**
  * Mulberry32 PRNG.
  *
@@ -27,7 +33,7 @@ function mulberry32(initialSeed) {
     let t = (s += 0x6d2b79f5);
     t = Math.imul(t ^ (t >>> 15), t | 1);
     t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    return ((t ^ (t >>> 14)) >>> 0) / UINT32;
   };
 }
 
@@ -71,7 +77,7 @@ function getPermutation(len) {
  */
 function ordinalDayUtc(isoDate) {
   const [y, m, d] = isoDate.split('-').map(Number);
-  return Math.floor(Date.UTC(y, m - 1, d) / 86400000);
+  return Math.floor(Date.UTC(y, m - 1, d) / MS_PER_DAY);
 }
 
 /**
