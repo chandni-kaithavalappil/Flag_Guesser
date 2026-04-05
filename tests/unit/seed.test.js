@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { getDailyIndex, getDailyFlag } from '../../src/game/seed.js';
+import { getDailyIndex, getDailyFlag, getSessionFlags } from '../../src/game/seed.js';
 import countries from '../../src/data/countries.json';
 
 describe('getDailyIndex', () => {
@@ -20,6 +20,10 @@ describe('getDailyIndex', () => {
     expect(idx).toBeGreaterThanOrEqual(0);
     expect(idx).toBeLessThan(countries.length);
   });
+
+  it('returns 0 for len=1', () => {
+    expect(getDailyIndex('2026-04-05', 1)).toBe(0);
+  });
 });
 
 describe('getDailyFlag', () => {
@@ -35,6 +39,40 @@ describe('getDailyFlag', () => {
     const a = getDailyFlag('2026-04-05');
     const b = getDailyFlag('2026-04-05');
     expect(a.code).toBe(b.code);
+  });
+});
+
+describe('getSessionFlags', () => {
+  it('returns exactly count countries', () => {
+    const flags = getSessionFlags('2026-04-05', 5);
+    expect(flags).toHaveLength(5);
+  });
+
+  it('returns the same list for the same date', () => {
+    const a = getSessionFlags('2026-04-05', 5);
+    const b = getSessionFlags('2026-04-05', 5);
+    expect(a.map((c) => c.code)).toEqual(b.map((c) => c.code));
+  });
+
+  it('returns a different list for a different date', () => {
+    const a = getSessionFlags('2026-04-05', 5);
+    const b = getSessionFlags('2026-04-06', 5);
+    expect(a.map((c) => c.code)).not.toEqual(b.map((c) => c.code));
+  });
+
+  it('returns all valid Country objects', () => {
+    const flags = getSessionFlags('2026-04-05', 5);
+    for (const c of flags) {
+      expect(c).toHaveProperty('code');
+      expect(c).toHaveProperty('name');
+      expect(c).toHaveProperty('flagUrl');
+    }
+  });
+
+  it('returns distinct countries within a session', () => {
+    const flags = getSessionFlags('2026-04-05', 10);
+    const codes = flags.map((c) => c.code);
+    expect(new Set(codes).size).toBe(10);
   });
 });
 

@@ -45,14 +45,13 @@ function startCountdown(el) {
     const midnight = new Date(now);
     midnight.setHours(24, 0, 0, 0);
     const diff = midnight - now;
-    if (diff <= 0) {
-      window.location.reload();
-      return;
-    }
     const h = Math.floor(diff / 3_600_000);
     const m = Math.floor((diff % 3_600_000) / 60_000);
     const s = Math.floor((diff % 60_000) / 1_000);
     el.textContent = `Next session in ${String(h).padStart(2, '0')}:${String(m).padStart(2, '0')}:${String(s).padStart(2, '0')}`;
+    if (diff <= 1_000) {
+      window.location.reload();
+    }
   }
   update();
   return setInterval(update, 1_000);
@@ -228,13 +227,31 @@ export function initApp(root) {
       const pts = roundScore(r.status, r.guessCount);
       const tr = document.createElement('tr');
       tr.className = r.status === 'WON' ? 'row--won' : 'row--lost';
-      tr.innerHTML = `
-        <td>${i + 1}</td>
-        <td><img src="${sessionFlags[i].flagUrl}" class="score-flag" alt="" /></td>
-        <td>${sessionFlags[i].name}</td>
-        <td>${r.status === 'WON' ? `✓ in ${r.guessCount}` : '✗'}</td>
-        <td>${pts}</td>
-      `;
+
+      const tdNum = document.createElement('td');
+      tdNum.textContent = String(i + 1);
+
+      const tdFlag = document.createElement('td');
+      const flagImg = document.createElement('img');
+      flagImg.src = sessionFlags[i].flagUrl;
+      flagImg.className = 'score-flag';
+      flagImg.alt = '';
+      tdFlag.appendChild(flagImg);
+
+      const tdName = document.createElement('td');
+      tdName.textContent = sessionFlags[i].name;
+
+      const tdResult = document.createElement('td');
+      tdResult.textContent = r.status === 'WON' ? `✓ in ${r.guessCount}` : '✗';
+
+      const tdPts = document.createElement('td');
+      tdPts.textContent = String(pts);
+
+      tr.appendChild(tdNum);
+      tr.appendChild(tdFlag);
+      tr.appendChild(tdName);
+      tr.appendChild(tdResult);
+      tr.appendChild(tdPts);
       tbody.appendChild(tr);
     });
 

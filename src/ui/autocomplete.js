@@ -33,9 +33,6 @@ export function initAutocomplete(input, onSubmitCode) {
   }
 
   function setActive(index) {
-    if (!listEl) {
-      return;
-    }
     const lis = listEl.querySelectorAll('li[data-code]');
     lis.forEach((li, i) => li.classList.toggle('active', i === index));
     activeIndex = index;

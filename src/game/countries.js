@@ -2,8 +2,6 @@ import countries from '../data/countries.json';
 
 export default countries;
 
-export { countries };
-
 /**
  * Normalizes a string for fuzzy matching.
  *

@@ -14,8 +14,8 @@ export default defineConfig({
         branches: 75,
         statements: 80,
       },
-      include: ['src/game/**', 'src/storage/**'],
-      exclude: ['src/ui/**'],
+      include: ['src/**/*.js'],
+      exclude: ['src/main.js'],
     },
   },
 });

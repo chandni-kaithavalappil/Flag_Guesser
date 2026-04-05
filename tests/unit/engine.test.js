@@ -36,6 +36,24 @@ describe('submitGuess', () => {
     expect(next.status).toBe('WON');
   });
 
+  it('accepts lowercase code and normalises it', () => {
+    const state = createGame(mockCountry, '2026-04-05');
+    const next = submitGuess(state, 'fr');
+    expect(next.status).toBe('WON');
+  });
+
+  it('returns unchanged state for empty string', () => {
+    const state = createGame(mockCountry, '2026-04-05');
+    const next = submitGuess(state, '');
+    expect(next).toBe(state);
+  });
+
+  it('returns unchanged state for whitespace-only input', () => {
+    const state = createGame(mockCountry, '2026-04-05');
+    const next = submitGuess(state, '   ');
+    expect(next).toBe(state);
+  });
+
   it('adds the guess to the guesses array on wrong answer', () => {
     const state = createGame(mockCountry, '2026-04-05');
     const next = submitGuess(state, 'DE');
@@ -47,6 +65,14 @@ describe('submitGuess', () => {
     const state = createGame(mockCountry, '2026-04-05');
     const next = submitGuess(state, 'DE');
     expect(next.hintsVisible).toBe(1);
+  });
+
+  it('caps hintsVisible at 4 after 4 wrong guesses', () => {
+    let state = createGame(mockCountry, '2026-04-05');
+    ['DE', 'GB', 'IT', 'ES'].forEach((code) => {
+      state = submitGuess(state, code);
+    });
+    expect(state.hintsVisible).toBe(4);
   });
 
   it('transitions to LOST after 5 wrong guesses', () => {
@@ -91,5 +117,13 @@ describe('getBlurLevel', () => {
     expect(getBlurLevel(1)).toBeLessThan(getBlurLevel(0));
     expect(getBlurLevel(2)).toBeLessThan(getBlurLevel(1));
     expect(getBlurLevel(3)).toBeLessThan(getBlurLevel(2));
+  });
+
+  it('clamps to last entry for out-of-bounds wrong guesses', () => {
+    expect(getBlurLevel(100)).toBe(getBlurLevel(5));
+  });
+
+  it('clamps to first entry for negative wrong guesses', () => {
+    expect(getBlurLevel(-1)).toBe(getBlurLevel(0));
   });
 });
