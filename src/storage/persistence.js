@@ -128,13 +128,9 @@ export function saveState(gameState) {
  * @returns {import('../game/engine.js').GameState | null}
  */
 export function loadSavedState(dateIso) {
-  try {
-    const rec = loadRecord();
-    if (rec.savedState && rec.savedState.date === dateIso) {
-      return rec.savedState;
-    }
-  } catch {
-    // ignore
+  const rec = loadRecord();
+  if (rec.savedState && rec.savedState.date === dateIso) {
+    return rec.savedState;
   }
   return null;
 }

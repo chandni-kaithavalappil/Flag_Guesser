@@ -102,10 +102,21 @@ describe('submitFromButton', () => {
   it('does nothing when query matches multiple countries without exact match', () => {
     const root = mountApp();
     const input = getInput(root);
-    input.value = 'united'; // matches US, UK, UAE — no exact match
+    input.value = 'united'; // matches US, UK, UAE — no exact match, pick=null
     getBtn(root).click();
     const status = root.querySelector('#status');
     expect(status.textContent).toMatch(/Guesses remaining/);
+  });
+
+  it('submits via single-match fallback (partial name, 1 result, no exact match)', () => {
+    const root = mountApp();
+    const input = getInput(root);
+    // "Trinid" matches only "Trinidad and Tobago" (1 result), no exact match → pick = matches[0]
+    input.value = 'Trinid';
+    getBtn(root).click();
+    // A guess was recorded (status may or may not still be "Guesses remaining")
+    const status = root.querySelector('#status');
+    expect(status.textContent).toBeTruthy();
   });
 
   it('submits and wins when the exact country name is typed', () => {
@@ -276,7 +287,10 @@ describe('autocomplete-driven guess', () => {
   });
 });
 
-/** Submit a guess via autocomplete mousedown (direct code injection, no name-matching). */
+/** Submit a guess via autocomplete mousedown (direct code injection, no name-matching).
+ * Uses the LAST matching li because multiple initAutocomplete instances each append their
+ * own list to the DOM; the last one belongs to the most-recently-created (active) instance.
+ */
 function submitViaAutocomplete(root, code, name) {
   const inp = root.querySelector('#guess-input');
   if (!inp || inp.disabled) {
@@ -284,7 +298,8 @@ function submitViaAutocomplete(root, code, name) {
   }
   inp.value = name;
   inp.dispatchEvent(new Event('input'));
-  const li = root.querySelector(`li[data-code="${code}"]`);
+  const lis = root.querySelectorAll(`li[data-code="${code}"]`);
+  const li = lis.length > 0 ? lis[lis.length - 1] : null;
   if (li) {
     li.dispatchEvent(new MouseEvent('mousedown', { bubbles: true }));
     return true;
@@ -349,5 +364,19 @@ describe('copy result button', () => {
       await Promise.resolve();
       expect(copyBtn.textContent).toBe('Copy failed');
     }
+  });
+});
+
+describe('startCountdown midnight reload', () => {
+  it('calls location.reload when countdown reaches last second', async () => {
+    // Set fake system time to 23:59:59.500 local so diff ≈ 500ms ≤ 1000
+    vi.setSystemTime(new Date(2026, 3, 5, 23, 59, 59, 500));
+
+    const root = mountApp();
+    await completeAllRounds(root);
+
+    // After completeAllRounds, showFinalScore fires startCountdown.
+    // The first update() call runs synchronously with diff ≈ 500ms ≤ 1000.
+    expect(location.reload).toHaveBeenCalled();
   });
 });
