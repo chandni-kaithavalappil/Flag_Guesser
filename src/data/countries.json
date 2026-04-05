@@ -1,0 +1,2270 @@
+[
+  {
+    "code": "AF",
+    "name": "Afghanistan",
+    "aliases": ["AF", "Af\u0121\u0101nist\u0101n"],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Kabul",
+    "population": 43844000,
+    "flagUrl": "https://flagcdn.com/af.svg"
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "aliases": ["AL", "Shqip\u00ebri", "Shqip\u00ebria", "Shqipnia"],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Tirana",
+    "population": 2363314,
+    "flagUrl": "https://flagcdn.com/al.svg"
+  },
+  {
+    "code": "DZ",
+    "name": "Algeria",
+    "aliases": ["DZ", "Dzayer", "Alg\u00e9rie"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Algiers",
+    "population": 47400000,
+    "flagUrl": "https://flagcdn.com/dz.svg"
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "aliases": ["AD", "Principality of Andorra", "Principat d'Andorra"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Andorra la Vella",
+    "population": 88406,
+    "flagUrl": "https://flagcdn.com/ad.svg"
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "aliases": ["AO", "Rep\u00fablica de Angola", "\u0281\u025bpublika de an'\u0261\u0254la"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Luanda",
+    "population": 36170961,
+    "flagUrl": "https://flagcdn.com/ao.svg"
+  },
+  {
+    "code": "AG",
+    "name": "Antigua and Barbuda",
+    "aliases": ["AG"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Saint John's",
+    "population": 103603,
+    "flagUrl": "https://flagcdn.com/ag.svg"
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "aliases": ["AR", "Argentine Republic", "Rep\u00fablica Argentina"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Buenos Aires",
+    "population": 46735004,
+    "flagUrl": "https://flagcdn.com/ar.svg"
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "aliases": [
+      "AM",
+      "Hayastan",
+      "Republic of Armenia",
+      "\u0540\u0561\u0575\u0561\u057d\u057f\u0561\u0576\u056b \u0540\u0561\u0576\u0580\u0561\u057a\u0565\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576"
+    ],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Yerevan",
+    "population": 3076200,
+    "flagUrl": "https://flagcdn.com/am.svg"
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "aliases": ["AU"],
+    "continent": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Canberra",
+    "population": 27536874,
+    "flagUrl": "https://flagcdn.com/au.svg"
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "aliases": ["AT", "Osterreich", "Oesterreich"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Vienna",
+    "population": 9200931,
+    "flagUrl": "https://flagcdn.com/at.svg"
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaijan",
+    "aliases": ["AZ", "Republic of Azerbaijan", "Az\u0259rbaycan Respublikas\u0131"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Baku",
+    "population": 10241722,
+    "flagUrl": "https://flagcdn.com/az.svg"
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "aliases": ["BS", "Commonwealth of the Bahamas"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Nassau",
+    "population": 398165,
+    "flagUrl": "https://flagcdn.com/bs.svg"
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "aliases": ["BH", "Kingdom of Bahrain", "Mamlakat al-Ba\u1e25rayn"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Manama",
+    "population": 1594654,
+    "flagUrl": "https://flagcdn.com/bh.svg"
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "aliases": [
+      "BD",
+      "People's Republic of Bangladesh",
+      "G\u00f4n\u00f4pr\u00f4jat\u00f4ntri Bangladesh"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Dhaka",
+    "population": 169828911,
+    "flagUrl": "https://flagcdn.com/bd.svg"
+  },
+  {
+    "code": "BB",
+    "name": "Barbados",
+    "aliases": ["BB"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Bridgetown",
+    "population": 267800,
+    "flagUrl": "https://flagcdn.com/bb.svg"
+  },
+  {
+    "code": "BY",
+    "name": "Belarus",
+    "aliases": [
+      "BY",
+      "Bielaru\u015b",
+      "Republic of Belarus",
+      "\u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f",
+      "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u0435\u043b\u043e\u0440\u0443\u0441\u0441\u0438\u044f"
+    ],
+    "continent": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Minsk",
+    "population": 9109280,
+    "flagUrl": "https://flagcdn.com/by.svg"
+  },
+  {
+    "code": "BE",
+    "name": "Belgium",
+    "aliases": [
+      "BE",
+      "Belgi\u00eb",
+      "Belgie",
+      "Belgien",
+      "Belgique",
+      "Kingdom of Belgium",
+      "Koninkrijk Belgi\u00eb",
+      "Royaume de Belgique",
+      "K\u00f6nigreich Belgien"
+    ],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Brussels",
+    "population": 11825551,
+    "flagUrl": "https://flagcdn.com/be.svg"
+  },
+  {
+    "code": "BZ",
+    "name": "Belize",
+    "aliases": ["BZ"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "Belmopan",
+    "population": 417634,
+    "flagUrl": "https://flagcdn.com/bz.svg"
+  },
+  {
+    "code": "BJ",
+    "name": "Benin",
+    "aliases": ["BJ", "Republic of Benin", "R\u00e9publique du B\u00e9nin"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Porto-Novo",
+    "population": 13224860,
+    "flagUrl": "https://flagcdn.com/bj.svg"
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "aliases": ["BT", "Kingdom of Bhutan"],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Thimphu",
+    "population": 784043,
+    "flagUrl": "https://flagcdn.com/bt.svg"
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "aliases": [
+      "BO",
+      "Buliwya",
+      "Wuliwya",
+      "Bolivia, Plurinational State of",
+      "Plurinational State of Bolivia",
+      "Estado Plurinacional de Bolivia",
+      "Buliwya Mamallaqta",
+      "Wuliwya Suyu",
+      "Tet\u00e3 Vol\u00edvia"
+    ],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Sucre",
+    "population": 11365333,
+    "flagUrl": "https://flagcdn.com/bo.svg"
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia and Herzegovina",
+    "aliases": [
+      "BA",
+      "Bosnia-Herzegovina",
+      "\u0411\u043e\u0441\u043d\u0430 \u0438 \u0425\u0435\u0440\u0446\u0435\u0433\u043e\u0432\u0438\u043d\u0430"
+    ],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Sarajevo",
+    "population": 3422000,
+    "flagUrl": "https://flagcdn.com/ba.svg"
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "aliases": ["BW", "Republic of Botswana", "Lefatshe la Botswana"],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Gaborone",
+    "population": 2359609,
+    "flagUrl": "https://flagcdn.com/bw.svg"
+  },
+  {
+    "code": "BR",
+    "name": "Brazil",
+    "aliases": [
+      "BR",
+      "Brasil",
+      "Federative Republic of Brazil",
+      "Rep\u00fablica Federativa do Brasil"
+    ],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Bras\u00edlia",
+    "population": 213421037,
+    "flagUrl": "https://flagcdn.com/br.svg"
+  },
+  {
+    "code": "BN",
+    "name": "Brunei",
+    "aliases": ["BN", "Brunei Darussalam", "Nation of Brunei", "the Abode of Peace"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Bandar Seri Begawan",
+    "population": 455500,
+    "flagUrl": "https://flagcdn.com/bn.svg"
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "aliases": [
+      "BG",
+      "Republic of Bulgaria",
+      "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0411\u044a\u043b\u0433\u0430\u0440\u0438\u044f"
+    ],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Sofia",
+    "population": 6437360,
+    "flagUrl": "https://flagcdn.com/bg.svg"
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "aliases": ["BF"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Ouagadougou",
+    "population": 24070553,
+    "flagUrl": "https://flagcdn.com/bf.svg"
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "aliases": ["BI", "Republic of Burundi", "Republika y'Uburundi", "R\u00e9publique du Burundi"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Gitega",
+    "population": 12332788,
+    "flagUrl": "https://flagcdn.com/bi.svg"
+  },
+  {
+    "code": "KH",
+    "name": "Cambodia",
+    "aliases": ["KH", "Kingdom of Cambodia"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Phnom Penh",
+    "population": 17577760,
+    "flagUrl": "https://flagcdn.com/kh.svg"
+  },
+  {
+    "code": "CM",
+    "name": "Cameroon",
+    "aliases": ["CM", "Republic of Cameroon", "R\u00e9publique du Cameroun"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Yaound\u00e9",
+    "population": 29442327,
+    "flagUrl": "https://flagcdn.com/cm.svg"
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "aliases": ["CA"],
+    "continent": "Americas",
+    "subregion": "North America",
+    "capital": "Ottawa",
+    "population": 41651653,
+    "flagUrl": "https://flagcdn.com/ca.svg"
+  },
+  {
+    "code": "CV",
+    "name": "Cape Verde",
+    "aliases": ["CV", "Republic of Cabo Verde", "Rep\u00fablica de Cabo Verde"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Praia",
+    "population": 491233,
+    "flagUrl": "https://flagcdn.com/cv.svg"
+  },
+  {
+    "code": "CF",
+    "name": "Central African Republic",
+    "aliases": ["CF", "Central African Republic", "R\u00e9publique centrafricaine"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Bangui",
+    "population": 6470307,
+    "flagUrl": "https://flagcdn.com/cf.svg"
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "aliases": ["TD", "Tchad", "Republic of Chad", "R\u00e9publique du Tchad"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "N'Djamena",
+    "population": 19340757,
+    "flagUrl": "https://flagcdn.com/td.svg"
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "aliases": ["CL", "Republic of Chile", "Rep\u00fablica de Chile"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Santiago",
+    "population": 20206953,
+    "flagUrl": "https://flagcdn.com/cl.svg"
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "aliases": [
+      "CN",
+      "Zh\u014dnggu\u00f3",
+      "Zhongguo",
+      "Zhonghua",
+      "People's Republic of China",
+      "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd",
+      "Zh\u014dnghu\u00e1 R\u00e9nm\u00edn G\u00f2ngh\u00e9gu\u00f3"
+    ],
+    "continent": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Beijing",
+    "population": 1408280000,
+    "flagUrl": "https://flagcdn.com/cn.svg"
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "aliases": ["CO", "Republic of Colombia", "Rep\u00fablica de Colombia"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Bogot\u00e1",
+    "population": 53057212,
+    "flagUrl": "https://flagcdn.com/co.svg"
+  },
+  {
+    "code": "KM",
+    "name": "Comoros",
+    "aliases": [
+      "KM",
+      "Union of the Comoros",
+      "Union des Comores",
+      "Udzima wa Komori",
+      "al-Itti\u1e25\u0101d al-Qumur\u012b"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Moroni",
+    "population": 919901,
+    "flagUrl": "https://flagcdn.com/km.svg"
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "aliases": ["CR", "Republic of Costa Rica", "Rep\u00fablica de Costa Rica"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "San Jos\u00e9",
+    "population": 5309625,
+    "flagUrl": "https://flagcdn.com/cr.svg"
+  },
+  {
+    "code": "HR",
+    "name": "Croatia",
+    "aliases": ["HR", "Hrvatska", "Republic of Croatia", "Republika Hrvatska"],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Zagreb",
+    "population": 3866233,
+    "flagUrl": "https://flagcdn.com/hr.svg"
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "aliases": ["CU", "Republic of Cuba", "Rep\u00fablica de Cuba"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Havana",
+    "population": 9748007,
+    "flagUrl": "https://flagcdn.com/cu.svg"
+  },
+  {
+    "code": "CY",
+    "name": "Cyprus",
+    "aliases": [
+      "CY",
+      "K\u00fdpros",
+      "K\u0131br\u0131s",
+      "Republic of Cyprus",
+      "\u039a\u03c5\u03c0\u03c1\u03b9\u03b1\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1",
+      "K\u0131br\u0131s Cumhuriyeti"
+    ],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Nicosia",
+    "population": 1442614,
+    "flagUrl": "https://flagcdn.com/cy.svg"
+  },
+  {
+    "code": "CZ",
+    "name": "Czechia",
+    "aliases": ["CZ", "\u010cesk\u00e1 republika", "\u010cesko"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Prague",
+    "population": 10882341,
+    "flagUrl": "https://flagcdn.com/cz.svg"
+  },
+  {
+    "code": "CD",
+    "name": "DR Congo",
+    "aliases": ["CD", "DR Congo", "Congo-Kinshasa", "Congo, the Democratic Republic of the", "DRC"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Kinshasa",
+    "population": 112832000,
+    "flagUrl": "https://flagcdn.com/cd.svg"
+  },
+  {
+    "code": "DK",
+    "name": "Denmark",
+    "aliases": ["DK", "Danmark", "Kingdom of Denmark", "Kongeriget Danmark"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Copenhagen",
+    "population": 6011488,
+    "flagUrl": "https://flagcdn.com/dk.svg"
+  },
+  {
+    "code": "DJ",
+    "name": "Djibouti",
+    "aliases": [
+      "DJ",
+      "Jabuuti",
+      "Gabuuti",
+      "Republic of Djibouti",
+      "R\u00e9publique de Djibouti",
+      "Gabuutih Ummuuno",
+      "Jamhuuriyadda Jabuuti"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Djibouti",
+    "population": 1066809,
+    "flagUrl": "https://flagcdn.com/dj.svg"
+  },
+  {
+    "code": "DM",
+    "name": "Dominica",
+    "aliases": ["DM", "Dominique", "Wai\u2018tu kubuli", "Commonwealth of Dominica"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Roseau",
+    "population": 67408,
+    "flagUrl": "https://flagcdn.com/dm.svg"
+  },
+  {
+    "code": "DO",
+    "name": "Dominican Republic",
+    "aliases": ["DO"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Santo Domingo",
+    "population": 10771504,
+    "flagUrl": "https://flagcdn.com/do.svg"
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "aliases": ["EC", "Republic of Ecuador", "Rep\u00fablica del Ecuador"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Quito",
+    "population": 18103660,
+    "flagUrl": "https://flagcdn.com/ec.svg"
+  },
+  {
+    "code": "EG",
+    "name": "Egypt",
+    "aliases": ["EG", "Arab Republic of Egypt"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Cairo",
+    "population": 107271260,
+    "flagUrl": "https://flagcdn.com/eg.svg"
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "aliases": ["SV", "Republic of El Salvador", "Rep\u00fablica de El Salvador"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "San Salvador",
+    "population": 6029976,
+    "flagUrl": "https://flagcdn.com/sv.svg"
+  },
+  {
+    "code": "GQ",
+    "name": "Equatorial Guinea",
+    "aliases": [
+      "GQ",
+      "Republic of Equatorial Guinea",
+      "Rep\u00fablica de Guinea Ecuatorial",
+      "R\u00e9publique de Guin\u00e9e \u00e9quatoriale",
+      "Rep\u00fablica da Guin\u00e9 Equatorial"
+    ],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Ciudad de la Paz",
+    "population": 1668768,
+    "flagUrl": "https://flagcdn.com/gq.svg"
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "aliases": [
+      "ER",
+      "State of Eritrea",
+      "\u1203\u1308\u1228 \u12a4\u122d\u1275\u122b",
+      "Dawlat Iritriy\u00e1",
+      "\u02beErtr\u0101",
+      "Iritriy\u0101"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Asmara",
+    "population": 3607000,
+    "flagUrl": "https://flagcdn.com/er.svg"
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "aliases": ["EE", "Eesti", "Republic of Estonia", "Eesti Vabariik"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Tallinn",
+    "population": 1369995,
+    "flagUrl": "https://flagcdn.com/ee.svg"
+  },
+  {
+    "code": "SZ",
+    "name": "Eswatini",
+    "aliases": [
+      "SZ",
+      "Swaziland",
+      "weSwatini",
+      "Swatini",
+      "Ngwane",
+      "Kingdom of Eswatini",
+      "Umbuso weSwatini"
+    ],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Mbabane",
+    "population": 1235549,
+    "flagUrl": "https://flagcdn.com/sz.svg"
+  },
+  {
+    "code": "ET",
+    "name": "Ethiopia",
+    "aliases": [
+      "ET",
+      "\u02be\u012aty\u014d\u1e57\u1e57y\u0101",
+      "Federal Democratic Republic of Ethiopia",
+      "\u12e8\u12a2\u1275\u12ee\u1335\u12eb \u134c\u12f4\u122b\u120b\u12ca \u12f2\u121e\u12ad\u122b\u1232\u12eb\u12ca \u122a\u1350\u1265\u120a\u12ad"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Addis Ababa",
+    "population": 111652998,
+    "flagUrl": "https://flagcdn.com/et.svg"
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "aliases": [
+      "FJ",
+      "Viti",
+      "Republic of Fiji",
+      "Matanitu ko Viti",
+      "Fij\u012b Ga\u1e47ar\u0101jya"
+    ],
+    "continent": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Suva",
+    "population": 900869,
+    "flagUrl": "https://flagcdn.com/fj.svg"
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "aliases": ["FI", "Suomi", "Republic of Finland", "Suomen tasavalta", "Republiken Finland"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Helsinki",
+    "population": 5650325,
+    "flagUrl": "https://flagcdn.com/fi.svg"
+  },
+  {
+    "code": "FR",
+    "name": "France",
+    "aliases": ["FR", "French Republic", "R\u00e9publique fran\u00e7aise"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Paris",
+    "population": 66351959,
+    "flagUrl": "https://flagcdn.com/fr.svg"
+  },
+  {
+    "code": "GA",
+    "name": "Gabon",
+    "aliases": ["GA", "Gabonese Republic", "R\u00e9publique Gabonaise"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Libreville",
+    "population": 2469296,
+    "flagUrl": "https://flagcdn.com/ga.svg"
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "aliases": ["GM", "Republic of the Gambia"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Banjul",
+    "population": 2422712,
+    "flagUrl": "https://flagcdn.com/gm.svg"
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "aliases": ["GE", "Sakartvelo"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Tbilisi",
+    "population": 4000921,
+    "flagUrl": "https://flagcdn.com/ge.svg"
+  },
+  {
+    "code": "DE",
+    "name": "Germany",
+    "aliases": ["DE", "Federal Republic of Germany", "Bundesrepublik Deutschland"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Berlin",
+    "population": 83491249,
+    "flagUrl": "https://flagcdn.com/de.svg"
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "aliases": ["GH"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Accra",
+    "population": 33742380,
+    "flagUrl": "https://flagcdn.com/gh.svg"
+  },
+  {
+    "code": "GR",
+    "name": "Greece",
+    "aliases": [
+      "GR",
+      "Ell\u00e1da",
+      "Hellenic Republic",
+      "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ae \u0394\u03b7\u03bc\u03bf\u03ba\u03c1\u03b1\u03c4\u03af\u03b1"
+    ],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Athens",
+    "population": 10400720,
+    "flagUrl": "https://flagcdn.com/gr.svg"
+  },
+  {
+    "code": "GD",
+    "name": "Grenada",
+    "aliases": ["GD"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "St. George's",
+    "population": 109021,
+    "flagUrl": "https://flagcdn.com/gd.svg"
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "aliases": ["GT"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "Guatemala City",
+    "population": 18079810,
+    "flagUrl": "https://flagcdn.com/gt.svg"
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "aliases": ["GN", "Republic of Guinea", "R\u00e9publique de Guin\u00e9e"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Conakry",
+    "population": 14363931,
+    "flagUrl": "https://flagcdn.com/gn.svg"
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bissau",
+    "aliases": ["GW", "Republic of Guinea-Bissau", "Rep\u00fablica da Guin\u00e9-Bissau"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Bissau",
+    "population": 1781308,
+    "flagUrl": "https://flagcdn.com/gw.svg"
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "aliases": ["GY", "Co-operative Republic of Guyana"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Georgetown",
+    "population": 772975,
+    "flagUrl": "https://flagcdn.com/gy.svg"
+  },
+  {
+    "code": "HT",
+    "name": "Haiti",
+    "aliases": ["HT", "Republic of Haiti", "R\u00e9publique d'Ha\u00efti", "Repiblik Ayiti"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Port-au-Prince",
+    "population": 11867032,
+    "flagUrl": "https://flagcdn.com/ht.svg"
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "aliases": ["HN", "Republic of Honduras", "Rep\u00fablica de Honduras"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "Tegucigalpa",
+    "population": 9892632,
+    "flagUrl": "https://flagcdn.com/hn.svg"
+  },
+  {
+    "code": "HU",
+    "name": "Hungary",
+    "aliases": ["HU"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Budapest",
+    "population": 9539502,
+    "flagUrl": "https://flagcdn.com/hu.svg"
+  },
+  {
+    "code": "IS",
+    "name": "Iceland",
+    "aliases": ["IS", "Island", "Republic of Iceland", "L\u00fd\u00f0veldi\u00f0 \u00cdsland"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Reykjavik",
+    "population": 391810,
+    "flagUrl": "https://flagcdn.com/is.svg"
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "aliases": [
+      "IN",
+      "Bh\u0101rat",
+      "Republic of India",
+      "Bharat Ganrajya",
+      "\u0b87\u0ba8\u0bcd\u0ba4\u0bbf\u0baf\u0bbe"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "New Delhi",
+    "population": 1417492000,
+    "flagUrl": "https://flagcdn.com/in.svg"
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "aliases": ["ID", "Republic of Indonesia", "Republik Indonesia"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Jakarta",
+    "population": 284438782,
+    "flagUrl": "https://flagcdn.com/id.svg"
+  },
+  {
+    "code": "IR",
+    "name": "Iran",
+    "aliases": [
+      "IR",
+      "Islamic Republic of Iran",
+      "Iran, Islamic Republic of",
+      "Jomhuri-ye Esl\u0101mi-ye Ir\u0101n"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Tehran",
+    "population": 85961000,
+    "flagUrl": "https://flagcdn.com/ir.svg"
+  },
+  {
+    "code": "IQ",
+    "name": "Iraq",
+    "aliases": ["IQ", "Republic of Iraq", "Jumh\u016briyyat al-\u2018Ir\u0101q"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Baghdad",
+    "population": 46118793,
+    "flagUrl": "https://flagcdn.com/iq.svg"
+  },
+  {
+    "code": "IE",
+    "name": "Ireland",
+    "aliases": ["IE", "\u00c9ire", "Republic of Ireland", "Poblacht na h\u00c9ireann"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Dublin",
+    "population": 5458600,
+    "flagUrl": "https://flagcdn.com/ie.svg"
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "aliases": ["IL", "State of Israel", "Med\u012bnat Yisr\u0101'el"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Jerusalem",
+    "population": 10134800,
+    "flagUrl": "https://flagcdn.com/il.svg"
+  },
+  {
+    "code": "IT",
+    "name": "Italy",
+    "aliases": ["IT", "Italian Republic", "Repubblica italiana"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Rome",
+    "population": 58927633,
+    "flagUrl": "https://flagcdn.com/it.svg"
+  },
+  {
+    "code": "CI",
+    "name": "Ivory Coast",
+    "aliases": [
+      "CI",
+      "C\u00f4te d'Ivoire",
+      "Ivory Coast",
+      "Republic of C\u00f4te d'Ivoire",
+      "R\u00e9publique de C\u00f4te d'Ivoire"
+    ],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Yamoussoukro",
+    "population": 31719275,
+    "flagUrl": "https://flagcdn.com/ci.svg"
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "aliases": ["JM"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Kingston",
+    "population": 2825544,
+    "flagUrl": "https://flagcdn.com/jm.svg"
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "aliases": ["JP", "Nippon", "Nihon"],
+    "continent": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Tokyo",
+    "population": 123210000,
+    "flagUrl": "https://flagcdn.com/jp.svg"
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "aliases": [
+      "JO",
+      "Hashemite Kingdom of Jordan",
+      "al-Mamlakah al-Urdun\u012byah al-H\u0101shim\u012byah"
+    ],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Amman",
+    "population": 11734000,
+    "flagUrl": "https://flagcdn.com/jo.svg"
+  },
+  {
+    "code": "KZ",
+    "name": "Kazakhstan",
+    "aliases": [
+      "KZ",
+      "Qazaqstan",
+      "\u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "Republic of Kazakhstan",
+      "\u049a\u0430\u0437\u0430\u049b\u0441\u0442\u0430\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
+      "Qazaqstan Respubl\u00efkas\u0131",
+      "\u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u0430\u0437\u0430\u0445\u0441\u0442\u0430\u043d",
+      "Respublika Kazakhstan"
+    ],
+    "continent": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Astana",
+    "population": 20426568,
+    "flagUrl": "https://flagcdn.com/kz.svg"
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "aliases": ["KE", "Republic of Kenya", "Jamhuri ya Kenya"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Nairobi",
+    "population": 53330978,
+    "flagUrl": "https://flagcdn.com/ke.svg"
+  },
+  {
+    "code": "KI",
+    "name": "Kiribati",
+    "aliases": ["KI", "Republic of Kiribati", "Ribaberiki Kiribati"],
+    "continent": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "South Tarawa",
+    "population": 120740,
+    "flagUrl": "https://flagcdn.com/ki.svg"
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "aliases": [
+      "XK",
+      "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041a\u043e\u0441\u043e\u0432\u043e"
+    ],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Pristina",
+    "population": 1585566,
+    "flagUrl": "https://flagcdn.com/xk.svg"
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "aliases": ["KW", "State of Kuwait", "Dawlat al-Kuwait"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Kuwait City",
+    "population": 4881254,
+    "flagUrl": "https://flagcdn.com/kw.svg"
+  },
+  {
+    "code": "KG",
+    "name": "Kyrgyzstan",
+    "aliases": [
+      "KG",
+      "\u041a\u0438\u0440\u0433\u0438\u0437\u0438\u044f",
+      "Kyrgyz Republic",
+      "\u041a\u044b\u0440\u0433\u044b\u0437 \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u044b",
+      "Kyrgyz Respublikasy"
+    ],
+    "continent": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Bishkek",
+    "population": 7281800,
+    "flagUrl": "https://flagcdn.com/kg.svg"
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "aliases": [
+      "LA",
+      "Lao",
+      "Lao People's Democratic Republic",
+      "Sathalanalat Paxathipatai Paxaxon Lao"
+    ],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Vientiane",
+    "population": 7647000,
+    "flagUrl": "https://flagcdn.com/la.svg"
+  },
+  {
+    "code": "LV",
+    "name": "Latvia",
+    "aliases": ["LV", "Republic of Latvia", "Latvijas Republika"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Riga",
+    "population": 1829000,
+    "flagUrl": "https://flagcdn.com/lv.svg"
+  },
+  {
+    "code": "LB",
+    "name": "Lebanon",
+    "aliases": ["LB", "Lebanese Republic", "Al-Jumh\u016br\u012byah Al-Libn\u0101n\u012byah"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Beirut",
+    "population": 5490000,
+    "flagUrl": "https://flagcdn.com/lb.svg"
+  },
+  {
+    "code": "LS",
+    "name": "Lesotho",
+    "aliases": ["LS", "Kingdom of Lesotho", "Muso oa Lesotho"],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Maseru",
+    "population": 2116427,
+    "flagUrl": "https://flagcdn.com/ls.svg"
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "aliases": ["LR", "Republic of Liberia"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Monrovia",
+    "population": 5248621,
+    "flagUrl": "https://flagcdn.com/lr.svg"
+  },
+  {
+    "code": "LY",
+    "name": "Libya",
+    "aliases": ["LY", "State of Libya", "Dawlat Libya"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Tripoli",
+    "population": 7459000,
+    "flagUrl": "https://flagcdn.com/ly.svg"
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "aliases": ["LI", "Principality of Liechtenstein", "F\u00fcrstentum Liechtenstein"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Vaduz",
+    "population": 40900,
+    "flagUrl": "https://flagcdn.com/li.svg"
+  },
+  {
+    "code": "LT",
+    "name": "Lithuania",
+    "aliases": ["LT", "Republic of Lithuania", "Lietuvos Respublika"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Vilnius",
+    "population": 2894886,
+    "flagUrl": "https://flagcdn.com/lt.svg"
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "aliases": [
+      "LU",
+      "Grand Duchy of Luxembourg",
+      "Grand-Duch\u00e9 de Luxembourg",
+      "Gro\u00dfherzogtum Luxemburg",
+      "Groussherzogtum L\u00ebtzebuerg"
+    ],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Luxembourg",
+    "population": 681973,
+    "flagUrl": "https://flagcdn.com/lu.svg"
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "aliases": [
+      "MG",
+      "Republic of Madagascar",
+      "Repoblikan'i Madagasikara",
+      "R\u00e9publique de Madagascar"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Antananarivo",
+    "population": 31727042,
+    "flagUrl": "https://flagcdn.com/mg.svg"
+  },
+  {
+    "code": "MW",
+    "name": "Malawi",
+    "aliases": ["MW", "Republic of Malawi"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Lilongwe",
+    "population": 20734262,
+    "flagUrl": "https://flagcdn.com/mw.svg"
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "aliases": ["MY"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Kuala Lumpur",
+    "population": 34231700,
+    "flagUrl": "https://flagcdn.com/my.svg"
+  },
+  {
+    "code": "MV",
+    "name": "Maldives",
+    "aliases": [
+      "MV",
+      "Maldive Islands",
+      "Republic of the Maldives",
+      "Dhivehi Raajjeyge Jumhooriyya"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Mal\u00e9",
+    "population": 515132,
+    "flagUrl": "https://flagcdn.com/mv.svg"
+  },
+  {
+    "code": "ML",
+    "name": "Mali",
+    "aliases": ["ML", "Republic of Mali", "R\u00e9publique du Mali"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Bamako",
+    "population": 22395489,
+    "flagUrl": "https://flagcdn.com/ml.svg"
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "aliases": ["MT", "Republic of Malta", "Repubblika ta' Malta"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Valletta",
+    "population": 574250,
+    "flagUrl": "https://flagcdn.com/mt.svg"
+  },
+  {
+    "code": "MH",
+    "name": "Marshall Islands",
+    "aliases": [
+      "MH",
+      "Republic of the Marshall Islands",
+      "Aolep\u0101n Aor\u014dkin M\u0327aje\u013c"
+    ],
+    "continent": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Majuro",
+    "population": 42418,
+    "flagUrl": "https://flagcdn.com/mh.svg"
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "aliases": [
+      "MR",
+      "Islamic Republic of Mauritania",
+      "al-Jumh\u016briyyah al-\u02beIsl\u0101miyyah al-M\u016br\u012bt\u0101niyyah"
+    ],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Nouakchott",
+    "population": 4927532,
+    "flagUrl": "https://flagcdn.com/mr.svg"
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "aliases": ["MU", "Republic of Mauritius", "R\u00e9publique de Maurice"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Port Louis",
+    "population": 1243741,
+    "flagUrl": "https://flagcdn.com/mu.svg"
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "aliases": ["MX", "Mexicanos", "United Mexican States", "Estados Unidos Mexicanos"],
+    "continent": "Americas",
+    "subregion": "North America",
+    "capital": "Mexico City",
+    "population": 130575786,
+    "flagUrl": "https://flagcdn.com/mx.svg"
+  },
+  {
+    "code": "FM",
+    "name": "Micronesia",
+    "aliases": ["FM", "Federated States of Micronesia", "Micronesia, Federated States of"],
+    "continent": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Palikir",
+    "population": 105564,
+    "flagUrl": "https://flagcdn.com/fm.svg"
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "aliases": ["MD", "Moldova, Republic of", "Republic of Moldova", "Republica Moldova"],
+    "continent": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Chi\u0219in\u0103u",
+    "population": 2749076,
+    "flagUrl": "https://flagcdn.com/md.svg"
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "aliases": ["MC", "Principality of Monaco", "Principaut\u00e9 de Monaco"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Monaco",
+    "population": 38423,
+    "flagUrl": "https://flagcdn.com/mc.svg"
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "aliases": ["MN"],
+    "continent": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Ulan Bator",
+    "population": 3544835,
+    "flagUrl": "https://flagcdn.com/mn.svg"
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "aliases": ["ME", "Crna Gora"],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Podgorica",
+    "population": 623327,
+    "flagUrl": "https://flagcdn.com/me.svg"
+  },
+  {
+    "code": "MA",
+    "name": "Morocco",
+    "aliases": ["MA", "Kingdom of Morocco", "Al-Mamlakah al-Ma\u0121ribiyah"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Rabat",
+    "population": 36828330,
+    "flagUrl": "https://flagcdn.com/ma.svg"
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "aliases": ["MZ", "Republic of Mozambique", "Rep\u00fablica de Mo\u00e7ambique"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Maputo",
+    "population": 34090466,
+    "flagUrl": "https://flagcdn.com/mz.svg"
+  },
+  {
+    "code": "MM",
+    "name": "Myanmar",
+    "aliases": [
+      "MM",
+      "Burma",
+      "Republic of the Union of Myanmar",
+      "Pyidaunzu Thanm\u0103da My\u0103ma Nainngandaw"
+    ],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Naypyidaw",
+    "population": 51316756,
+    "flagUrl": "https://flagcdn.com/mm.svg"
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "aliases": ["NA", "Namibi\u00eb", "Republic of Namibia"],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Windhoek",
+    "population": 3022401,
+    "flagUrl": "https://flagcdn.com/na.svg"
+  },
+  {
+    "code": "NR",
+    "name": "Nauru",
+    "aliases": ["NR", "Naoero", "Pleasant Island", "Republic of Nauru", "Ripublik Naoero"],
+    "continent": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Yaren",
+    "population": 11680,
+    "flagUrl": "https://flagcdn.com/nr.svg"
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "aliases": [
+      "NP",
+      "Federal Democratic Republic of Nepal",
+      "Lokt\u0101ntrik Ganatantra Nep\u0101l"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Kathmandu",
+    "population": 29911840,
+    "flagUrl": "https://flagcdn.com/np.svg"
+  },
+  {
+    "code": "NL",
+    "name": "Netherlands",
+    "aliases": ["NL", "Holland", "Nederland", "The Netherlands"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Amsterdam",
+    "population": 18100436,
+    "flagUrl": "https://flagcdn.com/nl.svg"
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "aliases": ["NZ", "Aotearoa"],
+    "continent": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "capital": "Wellington",
+    "population": 5324700,
+    "flagUrl": "https://flagcdn.com/nz.svg"
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "aliases": ["NI", "Republic of Nicaragua", "Rep\u00fablica de Nicaragua"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "Managua",
+    "population": 6803886,
+    "flagUrl": "https://flagcdn.com/ni.svg"
+  },
+  {
+    "code": "NE",
+    "name": "Niger",
+    "aliases": ["NE", "Nijar"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Niamey",
+    "population": 26312034,
+    "flagUrl": "https://flagcdn.com/ne.svg"
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "aliases": ["NG", "Nijeriya", "Na\u00edj\u00edr\u00ed\u00e0", "Federal Republic of Nigeria"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Abuja",
+    "population": 223800000,
+    "flagUrl": "https://flagcdn.com/ng.svg"
+  },
+  {
+    "code": "KP",
+    "name": "North Korea",
+    "aliases": [
+      "KP",
+      "Democratic People's Republic of Korea",
+      "DPRK",
+      "\uc870\uc120\ubbfc\uc8fc\uc8fc\uc758\uc778\ubbfc\uacf5\ud654\uad6d",
+      "Chos\u014fn Minjuju\u016di Inmin Konghwaguk",
+      "Korea, Democratic People's Republic of",
+      "\ubd81\ud55c",
+      "\ubd81\uc870\uc120"
+    ],
+    "continent": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Pyongyang",
+    "population": 25950000,
+    "flagUrl": "https://flagcdn.com/kp.svg"
+  },
+  {
+    "code": "MK",
+    "name": "North Macedonia",
+    "aliases": [
+      "MK",
+      "The former Yugoslav Republic of Macedonia",
+      "Republic of North Macedonia",
+      "Macedonia, The Former Yugoslav Republic of",
+      "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+    ],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Skopje",
+    "population": 1822612,
+    "flagUrl": "https://flagcdn.com/mk.svg"
+  },
+  {
+    "code": "NO",
+    "name": "Norway",
+    "aliases": [
+      "NO",
+      "Norge",
+      "Noreg",
+      "Kingdom of Norway",
+      "Kongeriket Norge",
+      "Kongeriket Noreg"
+    ],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Oslo",
+    "population": 5606944,
+    "flagUrl": "https://flagcdn.com/no.svg"
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "aliases": ["OM", "Sultanate of Oman", "Sal\u1e6danat \u02bbUm\u0101n"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Muscat",
+    "population": 5343630,
+    "flagUrl": "https://flagcdn.com/om.svg"
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "aliases": [
+      "PK",
+      "P\u0101kist\u0101n",
+      "Islamic Republic of Pakistan",
+      "Isl\u0101m\u012b Jumh\u016briya'eh P\u0101kist\u0101n"
+    ],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Islamabad",
+    "population": 241499431,
+    "flagUrl": "https://flagcdn.com/pk.svg"
+  },
+  {
+    "code": "PW",
+    "name": "Palau",
+    "aliases": ["PW", "Republic of Palau", "Beluu er a Belau"],
+    "continent": "Oceania",
+    "subregion": "Micronesia",
+    "capital": "Ngerulmud",
+    "population": 16733,
+    "flagUrl": "https://flagcdn.com/pw.svg"
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "aliases": ["PA", "Republic of Panama", "Rep\u00fablica de Panam\u00e1"],
+    "continent": "Americas",
+    "subregion": "Central America",
+    "capital": "Panama City",
+    "population": 4064780,
+    "flagUrl": "https://flagcdn.com/pa.svg"
+  },
+  {
+    "code": "PG",
+    "name": "Papua New Guinea",
+    "aliases": [
+      "PG",
+      "Independent State of Papua New Guinea",
+      "Independen Stet bilong Papua Niugini"
+    ],
+    "continent": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Port Moresby",
+    "population": 11781559,
+    "flagUrl": "https://flagcdn.com/pg.svg"
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "aliases": [
+      "PY",
+      "Republic of Paraguay",
+      "Rep\u00fablica del Paraguay",
+      "Tet\u00e3 Paragu\u00e1i"
+    ],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Asunci\u00f3n",
+    "population": 6109644,
+    "flagUrl": "https://flagcdn.com/py.svg"
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "aliases": ["PE", "Republic of Peru", "Rep\u00fablica del Per\u00fa"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Lima",
+    "population": 34350244,
+    "flagUrl": "https://flagcdn.com/pe.svg"
+  },
+  {
+    "code": "PH",
+    "name": "Philippines",
+    "aliases": ["PH", "Republic of the Philippines", "Rep\u00fablika ng Pilipinas"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Manila",
+    "population": 114123600,
+    "flagUrl": "https://flagcdn.com/ph.svg"
+  },
+  {
+    "code": "PL",
+    "name": "Poland",
+    "aliases": ["PL", "Republic of Poland", "Rzeczpospolita Polska"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Warsaw",
+    "population": 37392000,
+    "flagUrl": "https://flagcdn.com/pl.svg"
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "aliases": ["PT", "Portuguesa", "Portuguese Republic", "Rep\u00fablica Portuguesa"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Lisbon",
+    "population": 10749635,
+    "flagUrl": "https://flagcdn.com/pt.svg"
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "aliases": ["QA", "State of Qatar", "Dawlat Qa\u1e6dar"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Doha",
+    "population": 3173024,
+    "flagUrl": "https://flagcdn.com/qa.svg"
+  },
+  {
+    "code": "CG",
+    "name": "Republic of the Congo",
+    "aliases": ["CG", "Congo", "Congo-Brazzaville"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Brazzaville",
+    "population": 6142180,
+    "flagUrl": "https://flagcdn.com/cg.svg"
+  },
+  {
+    "code": "RO",
+    "name": "Romania",
+    "aliases": ["RO", "Rumania", "Roumania", "Rom\u00e2nia"],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Bucharest",
+    "population": 19036031,
+    "flagUrl": "https://flagcdn.com/ro.svg"
+  },
+  {
+    "code": "RU",
+    "name": "Russia",
+    "aliases": [
+      "RU",
+      "Russian Federation",
+      "\u0420\u043e\u0441\u0441\u0438\u0439\u0441\u043a\u0430\u044f \u0424\u0435\u0434\u0435\u0440\u0430\u0446\u0438\u044f"
+    ],
+    "continent": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Moscow",
+    "population": 146028325,
+    "flagUrl": "https://flagcdn.com/ru.svg"
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "aliases": ["RW", "Republic of Rwanda", "Repubulika y'u Rwanda", "R\u00e9publique du Rwanda"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Kigali",
+    "population": 14104969,
+    "flagUrl": "https://flagcdn.com/rw.svg"
+  },
+  {
+    "code": "KN",
+    "name": "Saint Kitts and Nevis",
+    "aliases": ["KN", "Federation of Saint Christopher and Nevis"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Basseterre",
+    "population": 51320,
+    "flagUrl": "https://flagcdn.com/kn.svg"
+  },
+  {
+    "code": "LC",
+    "name": "Saint Lucia",
+    "aliases": ["LC"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Castries",
+    "population": 184100,
+    "flagUrl": "https://flagcdn.com/lc.svg"
+  },
+  {
+    "code": "VC",
+    "name": "Saint Vincent and the Grenadines",
+    "aliases": ["VC"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Kingstown",
+    "population": 110872,
+    "flagUrl": "https://flagcdn.com/vc.svg"
+  },
+  {
+    "code": "WS",
+    "name": "Samoa",
+    "aliases": [
+      "WS",
+      "Independent State of Samoa",
+      "Malo Sa\u02bboloto Tuto\u02bbatasi o S\u0101moa"
+    ],
+    "continent": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Apia",
+    "population": 205557,
+    "flagUrl": "https://flagcdn.com/ws.svg"
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "aliases": ["SM", "Republic of San Marino", "Repubblica di San Marino"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "City of San Marino",
+    "population": 34132,
+    "flagUrl": "https://flagcdn.com/sm.svg"
+  },
+  {
+    "code": "SA",
+    "name": "Saudi Arabia",
+    "aliases": [
+      "Saudi",
+      "SA",
+      "Kingdom of Saudi Arabia",
+      "Al-Mamlakah al-\u2018Arabiyyah as-Su\u2018\u016bdiyyah"
+    ],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Riyadh",
+    "population": 35300280,
+    "flagUrl": "https://flagcdn.com/sa.svg"
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "aliases": ["SN", "Republic of Senegal", "R\u00e9publique du S\u00e9n\u00e9gal"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Dakar",
+    "population": 18593258,
+    "flagUrl": "https://flagcdn.com/sn.svg"
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "aliases": [
+      "RS",
+      "Srbija",
+      "Republic of Serbia",
+      "\u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u0421\u0440\u0431\u0438\u0458\u0430",
+      "Republika Srbija"
+    ],
+    "continent": "Europe",
+    "subregion": "Southeast Europe",
+    "capital": "Belgrade",
+    "population": 6567783,
+    "flagUrl": "https://flagcdn.com/rs.svg"
+  },
+  {
+    "code": "SC",
+    "name": "Seychelles",
+    "aliases": ["SC", "Republic of Seychelles", "Repiblik Sesel", "R\u00e9publique des Seychelles"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Victoria",
+    "population": 122729,
+    "flagUrl": "https://flagcdn.com/sc.svg"
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leone",
+    "aliases": ["SL", "Republic of Sierra Leone"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Freetown",
+    "population": 9077691,
+    "flagUrl": "https://flagcdn.com/sl.svg"
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "aliases": ["SG", "Singapura", "Republik Singapura", "\u65b0\u52a0\u5761\u5171\u548c\u56fd"],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Singapore",
+    "population": 6110200,
+    "flagUrl": "https://flagcdn.com/sg.svg"
+  },
+  {
+    "code": "SK",
+    "name": "Slovakia",
+    "aliases": ["SK", "Slovak Republic", "Slovensk\u00e1 republika"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Bratislava",
+    "population": 5413813,
+    "flagUrl": "https://flagcdn.com/sk.svg"
+  },
+  {
+    "code": "SI",
+    "name": "Slovenia",
+    "aliases": ["SI", "Republic of Slovenia", "Republika Slovenija"],
+    "continent": "Europe",
+    "subregion": "Central Europe",
+    "capital": "Ljubljana",
+    "population": 2130638,
+    "flagUrl": "https://flagcdn.com/si.svg"
+  },
+  {
+    "code": "SB",
+    "name": "Solomon Islands",
+    "aliases": ["SB"],
+    "continent": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Honiara",
+    "population": 750325,
+    "flagUrl": "https://flagcdn.com/sb.svg"
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "aliases": [
+      "SO",
+      "a\u1e63-\u1e62\u016bm\u0101l",
+      "Federal Republic of Somalia",
+      "Jamhuuriyadda Federaalka Soomaaliya",
+      "Jumh\u016briyyat a\u1e63-\u1e62\u016bm\u0101l al-Fider\u0101liyya"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Mogadishu",
+    "population": 19655000,
+    "flagUrl": "https://flagcdn.com/so.svg"
+  },
+  {
+    "code": "ZA",
+    "name": "South Africa",
+    "aliases": ["ZA", "RSA", "Suid-Afrika", "Republic of South Africa"],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Pretoria",
+    "population": 63100945,
+    "flagUrl": "https://flagcdn.com/za.svg"
+  },
+  {
+    "code": "KR",
+    "name": "South Korea",
+    "aliases": [
+      "KR",
+      "Korea, Republic of",
+      "Republic of Korea",
+      "\ub0a8\ud55c",
+      "\ub0a8\uc870\uc120"
+    ],
+    "continent": "Asia",
+    "subregion": "Eastern Asia",
+    "capital": "Seoul",
+    "population": 51159889,
+    "flagUrl": "https://flagcdn.com/kr.svg"
+  },
+  {
+    "code": "SS",
+    "name": "South Sudan",
+    "aliases": ["SS"],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "Juba",
+    "population": 15786898,
+    "flagUrl": "https://flagcdn.com/ss.svg"
+  },
+  {
+    "code": "ES",
+    "name": "Spain",
+    "aliases": ["ES", "Kingdom of Spain", "Reino de Espa\u00f1a"],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Madrid",
+    "population": 49315949,
+    "flagUrl": "https://flagcdn.com/es.svg"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "aliases": ["LK", "ila\u1e45kai", "Democratic Socialist Republic of Sri Lanka"],
+    "continent": "Asia",
+    "subregion": "Southern Asia",
+    "capital": "Sri Jayawardenepura Kotte",
+    "population": 21763170,
+    "flagUrl": "https://flagcdn.com/lk.svg"
+  },
+  {
+    "code": "SD",
+    "name": "Sudan",
+    "aliases": ["SD", "Republic of the Sudan", "Jumh\u016br\u012byat as-S\u016bd\u0101n"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Khartoum",
+    "population": 51662000,
+    "flagUrl": "https://flagcdn.com/sd.svg"
+  },
+  {
+    "code": "SR",
+    "name": "Suriname",
+    "aliases": ["SR", "Sarnam", "Sranangron", "Republic of Suriname", "Republiek Suriname"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Paramaribo",
+    "population": 616500,
+    "flagUrl": "https://flagcdn.com/sr.svg"
+  },
+  {
+    "code": "SE",
+    "name": "Sweden",
+    "aliases": ["SE", "Kingdom of Sweden", "Konungariket Sverige"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "Stockholm",
+    "population": 10605098,
+    "flagUrl": "https://flagcdn.com/se.svg"
+  },
+  {
+    "code": "CH",
+    "name": "Switzerland",
+    "aliases": ["CH", "Swiss Confederation", "Schweiz", "Suisse", "Svizzera", "Svizra"],
+    "continent": "Europe",
+    "subregion": "Western Europe",
+    "capital": "Bern",
+    "population": 9082848,
+    "flagUrl": "https://flagcdn.com/ch.svg"
+  },
+  {
+    "code": "SY",
+    "name": "Syria",
+    "aliases": [
+      "SY",
+      "Syrian Arab Republic",
+      "Al-Jumh\u016br\u012byah Al-\u02bbArab\u012byah As-S\u016br\u012byah"
+    ],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Damascus",
+    "population": 25620000,
+    "flagUrl": "https://flagcdn.com/sy.svg"
+  },
+  {
+    "code": "ST",
+    "name": "S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "aliases": [
+      "ST",
+      "Democratic Republic of S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+      "Sao Tome and Principe",
+      "Rep\u00fablica Democr\u00e1tica de S\u00e3o Tom\u00e9 e Pr\u00edncipe"
+    ],
+    "continent": "Africa",
+    "subregion": "Middle Africa",
+    "capital": "S\u00e3o Tom\u00e9",
+    "population": 209607,
+    "flagUrl": "https://flagcdn.com/st.svg"
+  },
+  {
+    "code": "TJ",
+    "name": "Tajikistan",
+    "aliases": [
+      "TJ",
+      "To\u00e7ikiston",
+      "Republic of Tajikistan",
+      "\u04b6\u0443\u043c\u04b3\u0443\u0440\u0438\u0438 \u0422\u043e\u04b7\u0438\u043a\u0438\u0441\u0442\u043e\u043d",
+      "\u00c7umhuriyi To\u00e7ikiston"
+    ],
+    "continent": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Dushanbe",
+    "population": 10499000,
+    "flagUrl": "https://flagcdn.com/tj.svg"
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "aliases": [
+      "TZ",
+      "Tanzania, United Republic of",
+      "United Republic of Tanzania",
+      "Jamhuri ya Muungano wa Tanzania"
+    ],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Dodoma",
+    "population": 68153004,
+    "flagUrl": "https://flagcdn.com/tz.svg"
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "aliases": [
+      "TH",
+      "Prathet",
+      "Thai",
+      "Kingdom of Thailand",
+      "\u0e23\u0e32\u0e0a\u0e2d\u0e32\u0e13\u0e32\u0e08\u0e31\u0e01\u0e23\u0e44\u0e17\u0e22",
+      "Ratcha Anachak Thai"
+    ],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Bangkok",
+    "population": 65859640,
+    "flagUrl": "https://flagcdn.com/th.svg"
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "aliases": [
+      "TL",
+      "East Timor",
+      "Democratic Republic of Timor-Leste",
+      "Rep\u00fablica Democr\u00e1tica de Timor-Leste",
+      "Rep\u00fablika Demokr\u00e1tika Tim\u00f3r-Leste",
+      "Tim\u00f3r Lorosa'e",
+      "Timor Lorosae"
+    ],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Dili",
+    "population": 1391221,
+    "flagUrl": "https://flagcdn.com/tl.svg"
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "aliases": ["TG", "Togolese", "Togolese Republic", "R\u00e9publique Togolaise"],
+    "continent": "Africa",
+    "subregion": "Western Africa",
+    "capital": "Lom\u00e9",
+    "population": 8095498,
+    "flagUrl": "https://flagcdn.com/tg.svg"
+  },
+  {
+    "code": "TO",
+    "name": "Tonga",
+    "aliases": ["TO"],
+    "continent": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Nuku'alofa",
+    "population": 100179,
+    "flagUrl": "https://flagcdn.com/to.svg"
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad and Tobago",
+    "aliases": ["TT", "Republic of Trinidad and Tobago"],
+    "continent": "Americas",
+    "subregion": "Caribbean",
+    "capital": "Port of Spain",
+    "population": 1367764,
+    "flagUrl": "https://flagcdn.com/tt.svg"
+  },
+  {
+    "code": "TN",
+    "name": "Tunisia",
+    "aliases": ["TN", "Republic of Tunisia", "al-Jumh\u016briyyah at-T\u016bnisiyyah"],
+    "continent": "Africa",
+    "subregion": "Northern Africa",
+    "capital": "Tunis",
+    "population": 11972169,
+    "flagUrl": "https://flagcdn.com/tn.svg"
+  },
+  {
+    "code": "TR",
+    "name": "Turkey",
+    "aliases": ["TR", "Turkiye", "Republic of Turkey", "T\u00fcrkiye Cumhuriyeti"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Ankara",
+    "population": 85664944,
+    "flagUrl": "https://flagcdn.com/tr.svg"
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistan",
+    "aliases": ["TM"],
+    "continent": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Ashgabat",
+    "population": 7057841,
+    "flagUrl": "https://flagcdn.com/tm.svg"
+  },
+  {
+    "code": "TV",
+    "name": "Tuvalu",
+    "aliases": ["TV"],
+    "continent": "Oceania",
+    "subregion": "Polynesia",
+    "capital": "Funafuti",
+    "population": 10643,
+    "flagUrl": "https://flagcdn.com/tv.svg"
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "aliases": ["UG", "Republic of Uganda", "Jamhuri ya Uganda"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Kampala",
+    "population": 45905417,
+    "flagUrl": "https://flagcdn.com/ug.svg"
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "aliases": ["UA", "Ukrayina"],
+    "continent": "Europe",
+    "subregion": "Eastern Europe",
+    "capital": "Kyiv",
+    "population": 32862000,
+    "flagUrl": "https://flagcdn.com/ua.svg"
+  },
+  {
+    "code": "AE",
+    "name": "United Arab Emirates",
+    "aliases": ["AE", "UAE", "Emirates"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Abu Dhabi",
+    "population": 11294243,
+    "flagUrl": "https://flagcdn.com/ae.svg"
+  },
+  {
+    "code": "GB",
+    "name": "United Kingdom",
+    "aliases": ["GB", "UK", "Great Britain"],
+    "continent": "Europe",
+    "subregion": "Northern Europe",
+    "capital": "London",
+    "population": 69281437,
+    "flagUrl": "https://flagcdn.com/gb.svg"
+  },
+  {
+    "code": "US",
+    "name": "United States",
+    "aliases": ["US", "USA", "United States of America"],
+    "continent": "Americas",
+    "subregion": "North America",
+    "capital": "Washington, D.C.",
+    "population": 340110988,
+    "flagUrl": "https://flagcdn.com/us.svg"
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "aliases": ["UY", "Oriental Republic of Uruguay", "Rep\u00fablica Oriental del Uruguay"],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Montevideo",
+    "population": 3499451,
+    "flagUrl": "https://flagcdn.com/uy.svg"
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistan",
+    "aliases": [
+      "UZ",
+      "Republic of Uzbekistan",
+      "O\u2018zbekiston Respublikasi",
+      "\u040e\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u043e\u043d \u0420\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u0441\u0438"
+    ],
+    "continent": "Asia",
+    "subregion": "Central Asia",
+    "capital": "Tashkent",
+    "population": 37859698,
+    "flagUrl": "https://flagcdn.com/uz.svg"
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "aliases": [
+      "VU",
+      "Republic of Vanuatu",
+      "Ripablik blong Vanuatu",
+      "R\u00e9publique de Vanuatu"
+    ],
+    "continent": "Oceania",
+    "subregion": "Melanesia",
+    "capital": "Port Vila",
+    "population": 321409,
+    "flagUrl": "https://flagcdn.com/vu.svg"
+  },
+  {
+    "code": "VA",
+    "name": "Vatican City",
+    "aliases": [
+      "VA",
+      "Holy See (Vatican City State)",
+      "Vatican City State",
+      "Stato della Citt\u00e0 del Vaticano"
+    ],
+    "continent": "Europe",
+    "subregion": "Southern Europe",
+    "capital": "Vatican City",
+    "population": 882,
+    "flagUrl": "https://flagcdn.com/va.svg"
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "aliases": [
+      "VE",
+      "Bolivarian Republic of Venezuela",
+      "Venezuela, Bolivarian Republic of",
+      "Rep\u00fablica Bolivariana de Venezuela"
+    ],
+    "continent": "Americas",
+    "subregion": "South America",
+    "capital": "Caracas",
+    "population": 28517000,
+    "flagUrl": "https://flagcdn.com/ve.svg"
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "aliases": [
+      "VN",
+      "Socialist Republic of Vietnam",
+      "C\u1ed9ng h\u00f2a X\u00e3 h\u1ed9i ch\u1ee7 ngh\u0129a Vi\u1ec7t Nam",
+      "Viet Nam"
+    ],
+    "continent": "Asia",
+    "subregion": "South-Eastern Asia",
+    "capital": "Hanoi",
+    "population": 101343800,
+    "flagUrl": "https://flagcdn.com/vn.svg"
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "aliases": ["YE", "Yemeni Republic", "al-Jumh\u016briyyah al-Yamaniyyah"],
+    "continent": "Asia",
+    "subregion": "Western Asia",
+    "capital": "Sana'a",
+    "population": 32684503,
+    "flagUrl": "https://flagcdn.com/ye.svg"
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "aliases": ["ZM", "Republic of Zambia"],
+    "continent": "Africa",
+    "subregion": "Eastern Africa",
+    "capital": "Lusaka",
+    "population": 19693423,
+    "flagUrl": "https://flagcdn.com/zm.svg"
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabwe",
+    "aliases": ["ZW", "Republic of Zimbabwe"],
+    "continent": "Africa",
+    "subregion": "Southern Africa",
+    "capital": "Harare",
+    "population": 17073087,
+    "flagUrl": "https://flagcdn.com/zw.svg"
+  }
+]
